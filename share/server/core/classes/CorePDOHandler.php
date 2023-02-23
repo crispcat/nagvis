@@ -236,7 +236,7 @@ class CorePDOHandler {
                 ),
 
                 'init' => array(
-                    "SET SESSION sql_mode = 'postgresql'",
+                    "SET SESSION sql_mode = 'PIPES_AS_CONCAT,ANSI_QUOTES,IGNORE_SPACE'",
                 ),
             ),
 
