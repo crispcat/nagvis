@@ -1,4 +1,5 @@
 # Exclude misc files
+.idea
 *.bak
 *.sw[po]
 *~
